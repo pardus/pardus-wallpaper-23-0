@@ -1,0 +1,13 @@
+Source: pardus-wallpaper-23-0
+Section: x11
+Priority: optional
+Maintainer: Fatih Altun <fatih.altun@pardus.org.tr>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.1
+Homepage: https://www.pardus.org.tr
+
+Package: pardus-wallpaper-23-0
+Architecture: all
+Depends: ${misc:Depends}
+Description: Pardus Wallpaper Package
+ Pardus 23-0 wallpaper set.
