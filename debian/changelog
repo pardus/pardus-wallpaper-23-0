@@ -1,5 +1,8 @@
 pardus-wallpaper-23-0 (1.0.0) yirmiuc; urgency=medium
 
-  * Initial release.
+  * Add wallpapers
+  * Add debian folder
+  * Add Makefile
+  * Add create-xml script
 
- -- Fatih Altun <fatih.altun@pardus.org.tr>  Fri, 05 May 2023 12:31:18 +0300
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Thu, 24 Aug 2023 20:11:56 +0300
