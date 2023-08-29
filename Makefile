@@ -15,16 +15,16 @@ install:
 	for file in images/* ; do \
 	    install $$file $(DESTDIR)$(PREFIX) ;\
 	done
-	install pardus-backgrounds.xml $(DESTDIR)/usr/share/gnome-background-properties/
+	install pardus-wallpaper-23-0.xml $(DESTDIR)/usr/share/gnome-background-properties/
 
 clean:
-	rm -f pardus-backgrounds.xml
+	rm -f pardus-wallpaper-23-0.xml
 
 uninstall:
 	@echo "Removing Pardus Background Images"
 	for file in images/* ; do \
 	    rm -f $(DESTDIR)$(PREFIX)/$$file ;\
 	done
-	rm -f $(DESTDIR)/usr/share/gnome-background-properties/pardus-backgrounds.xml
+	rm -f $(DESTDIR)/usr/share/gnome-background-properties/pardus-wallpaper-23-0.xml
 
 .PHONY: install uninstall
