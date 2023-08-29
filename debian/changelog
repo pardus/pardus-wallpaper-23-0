@@ -1,3 +1,9 @@
+pardus-wallpaper-23-0 (1.0.1) yirmiuc; urgency=medium
+
+  * Fix xml name conflict with old pardus-backgrouds
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Tue, 29 Aug 2023 13:16:09 +0300
+
 pardus-wallpaper-23-0 (1.0.0) yirmiuc; urgency=medium
 
   * Add wallpapers
